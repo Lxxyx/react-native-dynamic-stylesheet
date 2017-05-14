@@ -1,6 +1,6 @@
 {
   "name": "react-native-dynamic-stylesheet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A dynamic stylesheet for react native, simple and useful, support TypeScript. Edit",
   "main": "build/index.js",
   "scripts": {
