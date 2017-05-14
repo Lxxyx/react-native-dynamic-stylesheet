@@ -34,5 +34,6 @@
   "jest": {
     "preset": "react-native",
     "verbose": true
-  }
+  },
+  "typings": "./index.d.ts"
 }
