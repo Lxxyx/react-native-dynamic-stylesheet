@@ -11,7 +11,7 @@ npm install react-native-dynamic-stylesheet --save
 
 Just like react stylesheet, but need use `build` to generate stylesheet after use `create` method.
 
-```typescript
+```javascript
 import DynamicStyleSheet from 'react-native-dynamic-stylesheet'
 
 const styles = DynamicStyleSheet.create({
@@ -34,7 +34,7 @@ class Example extends React.Component {
 
 ## 1. platform specific styles
 
-```typescript
+```javascript
 import { StyleSheet } from 'react-native'
 import DynamicStyleSheet from 'react-native-dynamic-stylesheet'
 
@@ -73,7 +73,7 @@ Do not need write `Platform.select` anymore.
 
 You can pass props at `build` method.
 
-```typescript
+```javascript
 import { StyleSheet } from 'react-native'
 import DynamicStyleSheet from 'react-native-dynamic-stylesheet'
 
