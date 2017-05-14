@@ -1,0 +1,39 @@
+{
+  "name": "react-native-dynamic-stylesheet",
+  "version": "1.0.0",
+  "description": "A dynamic stylesheet for react native, simple and useful, support TypeScript. Edit",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "tsc && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lxxyx/react-native-dynamic-stylesheet.git"
+  },
+  "keywords": [
+    "react-native",
+    "stylesheet"
+  ],
+  "author": "Lxxyx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lxxyx/react-native-dynamic-stylesheet/issues"
+  },
+  "homepage": "https://github.com/Lxxyx/react-native-dynamic-stylesheet#readme",
+  "devDependencies": {
+    "@types/jest": "^19.2.3",
+    "@types/react": "^15.0.24",
+    "@types/react-native": "^0.44.0",
+    "@types/typescript": "^2.0.0",
+    "babel-jest": "^20.0.1",
+    "babel-preset-react-native": "^1.9.2",
+    "jest": "^20.0.1",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "typescript": "^2.3.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "verbose": true
+  }
+}
